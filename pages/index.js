@@ -45,7 +45,7 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="/contacts" className={styles.card}>
+          <a href="/contacts-manager" className={styles.card}>
             <h2>CONTACT MANAGER&rarr;</h2>
           </a>
 
