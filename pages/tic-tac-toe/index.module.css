@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #363062;
+  height: 100vh;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container > * {
+  color: #f5e8c7;
+}
+.row1,
+.row2,
+.row3 {
+  height: 100px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  margin-right: 5px;
+  background: #435585;
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16);
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box .disable-box {
+  pointer-events: none;
+  opacity: 0.7;
+}
+.box:hover {
+  cursor: pointer;
+  background-color: #818fb4;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.box > i {
+  font-size: 7rem;
+}
+
+.btn-container {
+  border: none;
+  margin-right: 5px;
+  background: #818fb4;
+  border-radius: 3%;
+  font-size: 2rem;
+  padding: 10px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16);
+  transition: 0.3s;
+  background: #435585;
+}
+
+.btn-container:hover {
+  cursor: pointer;
+  background-color: #818fb4;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* .box > i:hover {
+  color: #f5e8c7;
+} */
